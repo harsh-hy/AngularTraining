@@ -1,0 +1,30 @@
+.home-card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 2rem;
+	box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.home-card h1 {
+	margin: 0 0 0.75rem;
+	font-size: 1.8rem;
+}
+
+.home-card p {
+	margin: 0 0 1.25rem;
+	color: #475569;
+	line-height: 1.5;
+}
+
+.cta-link {
+	display: inline-block;
+	padding: 0.6rem 1rem;
+	border-radius: 8px;
+	background: #0369a1;
+	color: #fff;
+	text-decoration: none;
+}
+
+.cta-link:hover {
+	background: #0c4a6e;
+}

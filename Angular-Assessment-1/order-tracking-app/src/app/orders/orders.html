@@ -1,0 +1,26 @@
+<section class="orders-card">
+	<h2>Orders</h2>
+
+	<div class="table-wrap">
+		<table>
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Product</th>
+					<th>Price</th>
+					<th>Order Date</th>
+					<th>Status</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let order of orders">
+					<td>{{ order.id }}</td>
+					<td>{{ order.productName }}</td>
+					<td>{{ order.price | currency:'USD':'symbol':'1.2-2' }}</td>
+					<td>{{ order.orderDate | date:'mediumDate' }}</td>
+					<td>{{ order.status | orderStatus }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</section>
