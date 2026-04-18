@@ -1,0 +1,13 @@
+
+<div class = container bg-primary text-white>
+  <h4 class = "text-center"> Side: {{side1}} Cube: {{ side1 | cube }}</h4>
+  <h4 class = "text-center"> Side: {{side2}} Cube: {{ side2 | cube }}</h4>
+  <h4 class = "text-center"> Side: {{side3}} Cube: {{ side3 | cube }}</h4>
+  <br>
+  <h4 class = "text-center"> Data Size: {{dataSize | data: dataType}}</h4> 
+  <h4 class = "text-center"> Data Size: {{dataSize2 | data: dataType}}</h4>
+  <h4 class = "text-center"> Data Size: {{dataSize3 | data: dataType}}</h4>
+  <br>
+  <h4 class = "text-center"> KB: {{byteData1 }}KB equal to {{byteData1  | data:'MB'}}</h4>
+  <h4 class = "text-center"> KB: {{byteData2 }}KB equal to {{byteData2  | data:'MB'}}</h4>
+</div>

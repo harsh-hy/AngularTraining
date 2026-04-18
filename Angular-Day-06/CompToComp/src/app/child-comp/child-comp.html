@@ -1,0 +1,14 @@
+<section class="child-panel">
+	<h3>States</h3>
+
+	@if (countryName) {
+		<p class="country-label">Selected country: {{ countryName }}</p>
+		<ul>
+			@for (state of states; track state) {
+				<li>{{ state }}</li>
+			}
+		</ul>
+	} @else {
+		<p>Select a country to view its states.</p>
+	}
+</section>

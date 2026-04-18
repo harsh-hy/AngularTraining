@@ -1,0 +1,19 @@
+<div class="container">
+    <h1 class = "bg-primary text-white text-center">Employees List</h1>
+
+<table class = "table table-hover table-dark">
+    <thead>
+        <tr>
+            <th>Emp Id</th>
+            <th>Emp Name</th>
+            <th>Emp Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of emps">   
+            <td>{{emp.emp_id}}</td>
+            <td>{{emp.emp_name}}</td>
+            <td>{{emp.emp_salary}}</td>
+        </tr>
+    </tbody>
+</table>

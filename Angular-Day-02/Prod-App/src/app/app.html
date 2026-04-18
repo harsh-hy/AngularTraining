@@ -1,0 +1,44 @@
+<main class="product-page">
+  <h1>{{ title() }}</h1>
+
+  <section class="card">
+    <h2>Check 1: Without inserting products</h2>
+    @if (hasNoProducts()) {
+      <p class="empty-state">No product in list</p>
+    } @else {
+      <p>Products are available.</p>
+    }
+  </section>
+
+  <section class="card">
+    <h2>Check 2: After inserting 6 products</h2>
+    @if (hasProducts()) {
+      <table class="products-table with-data">
+        <thead>
+          <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (product of products(); track product.prodId) {
+            <tr>
+              <td>{{ product.prodId }}</td>
+              <td>{{ product.prodName }}</td>
+              <td>{{ product.prodPrice }}</td>
+              <td>
+                <span [class]="categoryClass(product.prodCategory)">
+                  {{ product.prodCategory }}
+                </span>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    } @else {
+      <p class="empty-state">No product in list</p>
+    }
+  </section>
+</main>

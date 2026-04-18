@@ -1,0 +1,94 @@
+:host {
+	display: block;
+	min-height: 100dvh;
+	background: linear-gradient(135deg, #f8fbff 0%, #eef7f2 100%);
+	color: #1c2735;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-page {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 2rem 1rem 3rem;
+}
+
+h1 {
+	margin: 0 0 1.5rem;
+	font-size: 2rem;
+}
+
+.card {
+	background: #ffffff;
+	border: 1px solid #dce7f2;
+	border-radius: 12px;
+	padding: 1rem;
+	box-shadow: 0 8px 18px rgba(28, 39, 53, 0.08);
+	margin-bottom: 1rem;
+}
+
+h2 {
+	margin: 0 0 0.8rem;
+	font-size: 1.2rem;
+}
+
+.empty-state {
+	margin: 0;
+	color: #c53030;
+	font-weight: 600;
+}
+
+.products-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.products-table th,
+.products-table td {
+	border: 1px solid #e2e8f0;
+	padding: 0.65rem;
+	text-align: left;
+}
+
+.products-table th {
+	background-color: #edf2f7;
+}
+
+.category-chip {
+	display: inline-block;
+	padding: 0.2rem 0.55rem;
+	border-radius: 999px;
+	font-weight: 600;
+	font-size: 0.85rem;
+}
+
+.category-electronics {
+	background: #dbeafe;
+	color: #1e3a8a;
+}
+
+.category-clothing {
+	background: #fee2e2;
+	color: #9f1239;
+}
+
+.category-home-decor {
+	background: #dcfce7;
+	color: #166534;
+}
+
+.category-kitchen {
+	background: #fef3c7;
+	color: #92400e;
+}
+
+@media (max-width: 640px) {
+	.product-page {
+		padding: 1rem 0.75rem 2rem;
+	}
+
+	.products-table th,
+	.products-table td {
+		font-size: 0.88rem;
+		padding: 0.5rem;
+	}
+}

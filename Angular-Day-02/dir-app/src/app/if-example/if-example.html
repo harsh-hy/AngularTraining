@@ -1,0 +1,46 @@
+<!-- <div class = "container">
+  <h3 class = "bg-info text-white text-center"> Example of ngIf Structural Directive </h3>
+  <button class="btn btn-primary" (click)="hide=!hide">Toggle</button>
+  <div *ngIf="!hide">
+    <p> This is the content to be shown or hidden based on the value of hide variable. </p>
+  </div>
+</div> -->
+
+<!-- @if(!isHidden)
+{
+    <h2 class = "bg-danger text-white text-center" *ngIf="isHidden"> This content is hidden </h2>
+}
+else
+{
+    <h2 class = "bg-success text-white text-center" *ngIf="!isHidden"> This content is visible </h2>
+}
+<button class="btn btn-primary" (click)="isHidden=!isHidden">Toggle</button> -->
+
+
+
+<!-- <button type="button" class="toggle-button" (click)="hide=!hide">Show/Hide Message </button>
+@if(hide){
+    <h2 class="bg-primary text-white">Hidden</h2>
+}
+@else {
+    <h2 >Visible</h2>
+} -->
+
+
+<div class="container">
+    <h2 class="bg-info text-white text-center"> for example </h2>
+    <ul>
+        @for (p  of products; track $index) {
+            <li> {{p}} </li>
+        }
+    </ul>
+</div>
+
+<div class="container">
+    <h2 class="bg-secondary text-white text-center"> display employyes using for </h2>
+    <ul>
+        @for (e of emps; track $index) {
+            <li>Id: {{e.id}}, Name: {{e.name}}, Salary: {{e.salary}} </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,7 @@
+<div class="container text-primary">
+  <li>{{ course_name | uppercase }}</li>
+  <li>Price: {{ course_price | currency: 'GBP'}}</li>
+  <li>Start Date: {{ start_date | date : 'shortDate' }}</li>
+  <li>Description: {{ course_description | slice: 0:50 }}...</li>
+  <li>Student Details: {{ student_details | json }}</li>
+</div>

@@ -1,0 +1,13 @@
+<h2>Employee Details</h2>
+
+<div *ngIf="selectedEmp; else notFound">
+	<p>Id: {{ selectedEmp.id }}</p>
+	<p>Name: {{ selectedEmp.name }}</p>
+	<p>Salary: {{ selectedEmp.salary }}</p>
+</div>
+
+<ng-template #notFound>
+	<p>Employee not found.</p>
+</ng-template>
+
+<a routerLink="/">Back to ID List</a>

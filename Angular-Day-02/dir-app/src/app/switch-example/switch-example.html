@@ -1,0 +1,27 @@
+<div class="container">
+  <h2 class="bg-primary text-white text-center">Switch Example</h2>
+
+  <!-- Dropdown to select player -->
+  <select [(ngModel)]="selectedPlayer" class="form-control">
+    <option *ngFor="let p of players" [ngValue]="p">
+      {{ p.name }} ({{ p.team }})
+    </option>
+  </select>
+
+  <br>
+
+  <!-- Switch based on position -->
+  <ul [ngSwitch]="selectedPlayer.position">
+
+    <li *ngSwitchCase="'Defender'">🛡️ Defender</li>
+    <li *ngSwitchCase="'Striker'">⚽ Striker</li>
+    <li *ngSwitchCase="'Midfielder'">🎯 Midfielder</li>
+    <li *ngSwitchCase="'Winger'">🏃 Winger</li>
+
+    <!-- IMPORTANT: You have 'Forward' in data -->
+    <li *ngSwitchCase="'Forward'">🔥 Forward</li>
+
+    <li *ngSwitchDefault>❓ Unknown Position</li>
+
+  </ul>
+</div>

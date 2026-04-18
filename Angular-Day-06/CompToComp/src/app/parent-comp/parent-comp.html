@@ -1,0 +1,16 @@
+<section class="parent-panel">
+	<h2>Country and States</h2>
+
+	<label for="countrySelect">Choose a country</label>
+	<select
+		id="countrySelect"
+		[value]="selectedCountry"
+		(change)="selectCountry($any($event.target).value)"
+	>
+		@for (country of countries; track country) {
+			<option [value]="country">{{ country }}</option>
+		}
+	</select>
+
+	<app-child-comp [countryName]="selectedCountry"></app-child-comp>
+</section>

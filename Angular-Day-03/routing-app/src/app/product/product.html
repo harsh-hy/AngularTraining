@@ -1,0 +1,14 @@
+@if(products.length > 0) {
+<ul>
+@for(p of products; track p.id)
+{
+    <li class = "text-success bg-light p-2 mb-2">
+        {{p.name}} :  ${{p.price}}
+    </li>
+}
+</ul>
+}
+@else
+{
+    <p>No products found.</p>
+}

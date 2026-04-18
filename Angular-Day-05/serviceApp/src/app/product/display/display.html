@@ -1,0 +1,21 @@
+<h6 class = "card-header text-success ">Products</h6>
+<table class = "table table-striped table-hover table-success table-bordered table-sm text-center table-responsive w-5 m-auto">
+  <thead>
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Manufacture Date</td>
+        <td>Expiry Date</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of srv.displayProducts()">
+      <td>{{ product.id }}</td>
+      <td>{{ product.pName }}</td>
+      <td>${{ product.price }}</td>
+      <td>{{ product.mfgDate }}</td>
+      <td>{{ product.expDate }}</td>
+    </tr>
+  </tbody>
+</table>

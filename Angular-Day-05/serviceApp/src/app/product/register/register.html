@@ -1,0 +1,75 @@
+<div class="card m-3 shadow-sm">
+	<div class="card-header text-primary fw-semibold">Register Product</div>
+
+	<div class="card-body">
+		<form class="row g-3" (submit)="register(); $event.preventDefault()">
+			<div class="col-md-4">
+				<label class="form-label" for="id">Product Id</label>
+				<input
+					id="id"
+					type="number"
+					class="form-control"
+					[value]="product.id ?? ''"
+					(input)="product.id = $any($event.target).valueAsNumber"
+					required
+				/>
+			</div>
+
+			<div class="col-md-8">
+				<label class="form-label" for="name">Product Name</label>
+				<input
+					id="name"
+					type="text"
+					class="form-control"
+					[value]="product.pName"
+					(input)="product.pName = $any($event.target).value"
+					required
+				/>
+			</div>
+
+			<div class="col-md-4">
+				<label class="form-label" for="price">Price</label>
+				<div class="input-group">
+					<span class="input-group-text">$</span>
+					<input
+						id="price"
+						type="number"
+						class="form-control"
+						[value]="product.price"
+						(input)="product.price = $any($event.target).valueAsNumber"
+						required
+					/>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<label class="form-label" for="mfgDate">Manufacture Date</label>
+				<input
+					id="mfgDate"
+					type="date"
+					class="form-control"
+					[value]="product.mfgDate"
+					(input)="product.mfgDate = $any($event.target).value"
+					required
+				/>
+			</div>
+
+			<div class="col-md-4">
+				<label class="form-label" for="expDate">Expiry Date</label>
+				<input
+					id="expDate"
+					type="date"
+					class="form-control"
+					[value]="product.expDate"
+					(input)="product.expDate = $any($event.target).value"
+					required
+				/>
+			</div>
+
+			<div class="col-12 d-flex gap-2">
+				<button type="submit" class="btn btn-success">Register</button>
+				<button type="reset" class="btn btn-outline-secondary">Clear</button>
+			</div>
+		</form>
+	</div>
+</div>

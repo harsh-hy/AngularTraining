@@ -1,0 +1,9 @@
+Roting --->
+
+Routes: Routes is an array of objects. Each object has two properties: path and component. Path is the URL path that we want to navigate to, and component is the component that we want to display when we navigate to that path.
+
+Router: Router is a service that we can use to navigate to different routes. We can inject the Router service into our components and use it to navigate to different routes.
+
+RouterLink: RouterLink is a directive that we can use to create navigation links in our templates.
+
+RouterOutlet: RouterOutlet is a directive that we can use to display the component associated with the current route.

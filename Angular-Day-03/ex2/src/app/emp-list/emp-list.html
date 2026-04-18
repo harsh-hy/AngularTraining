@@ -1,0 +1,8 @@
+<h2>Select Employee ID</h2>
+
+<p>Click an ID to view details:</p>
+
+<div *ngFor="let emp of emps">
+  <a [routerLink]="['/emp', emp.id]">{{ emp.id }}</a>
+</div>
+
