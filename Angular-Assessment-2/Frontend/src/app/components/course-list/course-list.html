@@ -1,0 +1,47 @@
+@if (errorMessage) {
+	<div class="alert-banner error">{{ errorMessage }}</div>
+}
+
+@if (isRefreshing) {
+	<div class="alert-banner info">Refreshing latest courses...</div>
+}
+
+<div class="table-shell" [ngClass]="{ 'loading-state': isLoading }">
+	@if (isLoading && courses.length === 0) {
+		<p class="state-text">Loading courses...</p>
+	} @else if (courses.length === 0) {
+		<p class="state-text">No courses found. Add your first course from the form.</p>
+	} @else {
+		<table class="catalog-table">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Title</th>
+					<th>Instructor</th>
+					<th>Duration (hrs)</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				@for (course of courses; track course.id) {
+					<tr>
+						<td>{{ course.id }}</td>
+						<td>{{ course.title }}</td>
+						<td>{{ course.instructor }}</td>
+						<td>{{ course.duration }}</td>
+						<td class="actions-cell">
+							<button
+								class="icon-btn delete"
+								type="button"
+								aria-label="Delete course"
+								(click)="deleteCourse(course.id)"
+							>
+								<i class="fa-solid fa-trash"></i>
+							</button>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	}
+</div>

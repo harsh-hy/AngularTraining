@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|c:\\angulartraining\\angular-assessment-2\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|c:\\angulartraining\\angular-assessment-2\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|c:\\angulartraining\\angular-assessment-2\\backend\\backend\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Migrations\\20260425184651_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20260425184651_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|c:\\angulartraining\\angular-assessment-2\\backend\\backend\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|solutionrelative:backend\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|c:\\angulartraining\\angular-assessment-2\\backend\\backend\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06286E4-EB3F-4813-A5BA-ED054C3A26D2}|Backend\\Backend.csproj|solutionrelative:backend\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T18:49:22.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260425184651_InitialCreate.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Migrations\\20260425184651_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Backend\\Migrations\\20260425184651_InitialCreate.cs",
+              "ToolTip": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Migrations\\20260425184651_InitialCreate.cs",
+              "RelativeToolTip": "Backend\\Migrations\\20260425184651_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T18:46:52.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T18:46:00.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-25T18:41:14.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Data\\DbContext.cs",
+              "ToolTip": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Data\\DbContext.cs",
+              "RelativeToolTip": "Backend\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T18:40:45.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Course.cs",
+              "ToolTip": "C:\\AngularTraining\\Angular-Assessment-2\\Backend\\Backend\\Models\\Course.cs",
+              "RelativeToolTip": "Backend\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T18:37:03.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

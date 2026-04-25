@@ -1,0 +1,31 @@
+@if (successMessage) {
+	<div class="alert-banner success">{{ successMessage }}</div>
+}
+
+@if (errorMessage) {
+	<div class="alert-banner error">{{ errorMessage }}</div>
+}
+
+<form [formGroup]="courseForm" class="course-form" (ngSubmit)="createCourse()">
+	<label for="title">Title</label>
+	<input id="title" type="text" formControlName="title" placeholder="Enter course title" />
+	@if (courseForm.controls.title.touched && courseForm.controls.title.invalid) {
+		<span class="error-text">Title is required.</span>
+	}
+
+	<label for="instructor">Instructor</label>
+	<input id="instructor" type="text" formControlName="instructor" placeholder="Enter instructor name" />
+	@if (courseForm.controls.instructor.touched && courseForm.controls.instructor.invalid) {
+		<span class="error-text">Instructor is required.</span>
+	}
+
+	<label for="duration">Duration (hours)</label>
+	<input id="duration" type="number" formControlName="duration" placeholder="Enter duration" />
+	@if (courseForm.controls.duration.touched && courseForm.controls.duration.invalid) {
+		<span class="error-text">Duration must be greater than 0.</span>
+	}
+
+	<button class="create-btn" type="submit" [disabled]="submitted">
+		{{ submitted ? 'Creating...' : 'Create Course' }}
+	</button>
+</form>

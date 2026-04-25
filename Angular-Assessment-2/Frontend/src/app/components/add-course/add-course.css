@@ -1,0 +1,67 @@
+.course-form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.course-form label {
+	font-weight: 600;
+	font-size: 0.88rem;
+	color: var(--text-700);
+	margin-top: 0.55rem;
+}
+
+.course-form input {
+	border-radius: 10px;
+	border: 1px solid #d2d7e3;
+	padding: 0.68rem 0.8rem;
+	outline: none;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-form input:focus {
+	border-color: #4f88ff;
+	box-shadow: 0 0 0 3px rgba(79, 136, 255, 0.15);
+}
+
+.create-btn {
+	margin-top: 1rem;
+	border: 0;
+	border-radius: 10px;
+	padding: 0.75rem 0.8rem;
+	cursor: pointer;
+	font-weight: 700;
+	color: #ffffff;
+	background: linear-gradient(140deg, #ff9214, #ff6b0f);
+	box-shadow: 0 8px 20px rgba(255, 122, 27, 0.28);
+}
+
+.create-btn:disabled {
+	opacity: 0.75;
+	cursor: not-allowed;
+}
+
+.error-text {
+	color: #c53030;
+	font-size: 0.78rem;
+	margin-top: 0.1rem;
+}
+
+.alert-banner {
+	margin-bottom: 0.8rem;
+	border-radius: 10px;
+	padding: 0.65rem 0.8rem;
+	font-size: 0.88rem;
+}
+
+.alert-banner.success {
+	background: #e7f9f0;
+	color: #136f45;
+	border: 1px solid #c8efd9;
+}
+
+.alert-banner.error {
+	background: #fdecec;
+	color: #b91c1c;
+	border: 1px solid #f8cfcf;
+}

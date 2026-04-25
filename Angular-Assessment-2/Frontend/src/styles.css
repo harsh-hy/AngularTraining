@@ -1,0 +1,21 @@
+:root {
+	--surface: #ffffff;
+	--text-900: #182235;
+	--text-700: #31405d;
+	--text-600: #55627e;
+	--border-soft: #e7ecf6;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+	color: var(--text-900);
+	background:
+		radial-gradient(circle at 6% 5%, rgba(76, 124, 255, 0.1), transparent 22%),
+		radial-gradient(circle at 95% 95%, rgba(255, 140, 0, 0.1), transparent 26%),
+		linear-gradient(155deg, #eef2fb 0%, #f5f7fc 44%, #f9fafc 100%);
+}
